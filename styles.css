@@ -1,0 +1,17 @@
+/*
+ * Custom styles for NestDecor.
+ * Component layout and responsive utilities continue to use Tailwind CSS.
+ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+}
+
+::selection {
+  background-color: #10b981;
+  color: #ffffff;
+}
