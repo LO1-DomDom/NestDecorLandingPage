@@ -23,46 +23,49 @@
   >
     <!-- HEADER / NAVBAR -->
     <header
-      class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200"
+      class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200"
     >
       <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2"
       >
         <!-- Logo & Brand -->
-        <div class="flex items-center space-x-3">
+        <a href="#" class="flex items-center space-x-2.5 shrink-0">
           <div
-            class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-white font-heading font-bold text-xl shadow-md shadow-emerald-500/20"
+            class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-white font-heading font-bold text-lg sm:text-xl shadow-md shadow-emerald-500/20"
           >
             N
           </div>
           <span
-            class="font-heading font-extrabold text-2xl tracking-tight text-slate-900"
+            class="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-slate-900"
             >Nest<span class="text-emerald-600">Decor</span></span
           >
-        </div>
+        </a>
 
         <!-- Nav Links / Quick CTA -->
-        <div
-          class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600"
+        <nav
+          class="hidden md:flex items-center space-x-7 text-sm font-medium text-slate-600"
         >
-          <a href="#features" class="hover:text-emerald-600 transition-colors"
-            >Tính năng</a
+          <a href="#status" class="hover:text-emerald-600 transition-colors"
+            >Trạng thái</a
           >
           <a href="#problem" class="hover:text-emerald-600 transition-colors"
             >Bài toán</a
+          >
+          <a href="#features" class="hover:text-emerald-600 transition-colors"
+            >Tính năng</a
           >
           <a href="#showcase" class="hover:text-emerald-600 transition-colors"
             >Giao diện UI</a
           >
           <a href="#links" class="hover:text-emerald-600 transition-colors"
-            >Tài liệu & Đồ án</a
+            >Tài liệu &amp; Đồ án</a
           >
-        </div>
+        </nav>
 
-        <div class="flex items-center space-x-3">
+        <div class="flex items-center shrink-0">
           <a
             href="#links"
-            class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-medium text-sm shadow-sm transition-all shadow-emerald-600/20"
+            class="inline-flex items-center justify-center px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-medium text-xs sm:text-sm shadow-sm transition-all shadow-emerald-600/20"
           >
             Trải nghiệm ngay
           </a>
@@ -72,49 +75,62 @@
 
     <!-- HERO SECTION -->
     <section
-      class="relative pt-20 pb-24 overflow-hidden bg-gradient-to-b from-emerald-50/50 via-white to-slate-50"
+      class="relative pt-12 pb-16 sm:pt-20 sm:pb-24 overflow-hidden bg-gradient-to-b from-emerald-50/50 via-white to-slate-50"
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           <div class="lg:col-span-7 text-center lg:text-left">
+            <div
+              class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold mb-5"
+            >
+              <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
+              <span>CO3043 · Assignment 2: Prototype &amp; Validation</span>
+            </div>
+
             <h1
-              class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-slate-900 tracking-tight leading-[1.15] mb-6"
+              class="font-heading font-extrabold text-3xl sm:text-5xl lg:text-6xl text-slate-900 tracking-tight leading-[1.15] mb-4 sm:mb-6"
             >
               Biến hóa không gian sống với
               <span
                 class="bg-gradient-to-r from-emerald-600 to-teal-500 bg-clip-text text-transparent"
-                >On-Device AI</span
+                >Gemini AI</span
               >
             </h1>
+
             <p
-              class="text-lg sm:text-xl text-slate-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed"
+              class="text-base sm:text-xl text-slate-600 mb-6 sm:mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed"
             >
               Chụp ảnh căn phòng thực tế, nhận phân tích bố cục tức thì và gợi ý
               phong cách trang trí chuẩn gu — hoạt động 100% offline, không tốn
               phí API, bảo mật tuyệt đối.
             </p>
+
             <div
-              class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
+              class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 sm:gap-4"
             >
               <a
-                href="#links"
-                class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-base shadow-lg shadow-emerald-600/25 transition-all"
+                href="https://www.figma.com/design/QbiFEOW5ieXY9SAoHRHzXv/NestDecor?m=auto&amp;t=uTJp0UEeaLUILp7N-6"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 sm:px-8 sm:py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm sm:text-base shadow-lg shadow-emerald-600/25 transition-all"
               >
                 Xem Figma Prototype
               </a>
               <a
-                href="#showcase"
-                class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 font-semibold text-base transition-all"
+                href="https://www.behance.net/gallery/258665367/NestDecor-On-Device-AI-Interior-Design-App/modules/1513282047"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 sm:px-8 sm:py-4 rounded-xl bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 font-semibold text-sm sm:text-base transition-all"
               >
-                Khám phá giao diện
+                Behance Case Study
               </a>
             </div>
           </div>
 
-          <!-- Hero Visual / Placeholder Mockup Banner -->
+          <!-- Hero Visual / Banner -->
           <div class="lg:col-span-5 relative">
             <div
-              class="relative mx-auto w-full max-w-md rounded-2xl shadow-2xl shadow-slate-900/10 border-8 border-white bg-white overflow-hidden aspect-[4/3]"
+              class="relative mx-auto w-full max-w-md rounded-2xl shadow-2xl shadow-slate-900/10 border-4 sm:border-8 border-white bg-white overflow-hidden aspect-[4/3]"
             >
               <img
                 src="./img/Gemini_Generated_Image_88fzr888fzr888fz.png"
@@ -127,31 +143,65 @@
       </div>
     </section>
 
-    <!-- PROBLEM & TARGET USERS -->
-    <section id="problem" class="py-20 bg-white border-y border-slate-200">
+    <!-- CURRENT DEVELOPMENT STATUS -->
+    <section id="status" class="py-12 sm:py-16 bg-emerald-900 text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+          <div class="max-w-3xl">
+            <span
+              class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-xs font-semibold uppercase tracking-wider mb-3"
+            >
+              Trạng thái hiện tại của sản phẩm
+            </span>
+            <h2 class="font-heading font-bold text-2xl sm:text-3xl mb-2">
+              Bản thiết kế UI/UX, Prototype tương tác &amp; Kiểm thử người dùng (Assignment 2)
+            </h2>
+            <p class="text-emerald-100/90 text-sm sm:text-base leading-relaxed">
+              Dự án đang ở giai đoạn hoàn thiện hệ thống giao diện trên Figma,
+              chạy prototype tương tác, thực hiện usability testing với người dùng
+              và tinh chỉnh luồng trước khi triển khai ứng dụng thực tế ở Assignment 3.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-2.5 shrink-0 text-xs sm:text-sm">
+            <div class="px-3.5 py-2 rounded-lg bg-emerald-950/70 border border-emerald-700/60">
+              <span class="text-emerald-300 font-semibold">Assignment 1:</span> Nghiên cứu &amp; định hướng
+            </div>
+            <div class="px-3.5 py-2 rounded-lg bg-emerald-600/40 border border-emerald-300/50">
+              <span class="text-white font-semibold">Assignment 2 (Hiện tại):</span> Prototype &amp; Validation
+            </div>
+            <div class="px-3.5 py-2 rounded-lg bg-emerald-950/70 border border-emerald-700/60">
+              <span class="text-emerald-300 font-semibold">Assignment 3 (Tiếp theo):</span> Xây dựng &amp; phát hành app
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM & TARGET USERS -->
+    <section id="problem" class="py-16 sm:py-20 bg-white border-y border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
           <h2
-            class="font-heading font-bold text-3xl sm:text-4xl text-slate-900 mb-4"
+            class="font-heading font-bold text-2xl sm:text-4xl text-slate-900 mb-3 sm:mb-4"
           >
-            Vấn đề thực tế & Đối tượng mục tiêu
+            Vấn đề thực tế &amp; Đối tượng mục tiêu
           </h2>
-          <p class="text-slate-600 text-lg">
+          <p class="text-slate-600 text-base sm:text-lg">
             Chúng tôi giải quyết những rào cản lớn nhất khi sinh viên và người
             trẻ tự trang trí không gian sống.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           <div
-            class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition-all"
+            class="p-6 sm:p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition-all"
           >
             <div
-              class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-xl mb-6"
+              class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-lg sm:text-xl mb-5 sm:mb-6"
             >
               1
             </div>
-            <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">
+            <h3 class="font-heading font-bold text-lg sm:text-xl text-slate-900 mb-2.5 sm:mb-3">
               Khó hình dung không gian
             </h3>
             <p class="text-slate-600 text-sm leading-relaxed">
@@ -160,14 +210,14 @@
             </p>
           </div>
           <div
-            class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition-all"
+            class="p-6 sm:p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition-all"
           >
             <div
-              class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-xl mb-6"
+              class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-lg sm:text-xl mb-5 sm:mb-6"
             >
               2
             </div>
-            <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">
+            <h3 class="font-heading font-bold text-lg sm:text-xl text-slate-900 mb-2.5 sm:mb-3">
               Chi phí thuê thiết kế cao
             </h3>
             <p class="text-slate-600 text-sm leading-relaxed">
@@ -177,14 +227,14 @@
             </p>
           </div>
           <div
-            class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition-all"
+            class="p-6 sm:p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition-all"
           >
             <div
-              class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-xl mb-6"
+              class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-lg sm:text-xl mb-5 sm:mb-6"
             >
               3
             </div>
-            <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">
+            <h3 class="font-heading font-bold text-lg sm:text-xl text-slate-900 mb-2.5 sm:mb-3">
               Tốn thời gian tìm kiếm
             </h3>
             <p class="text-slate-600 text-sm leading-relaxed">
@@ -197,26 +247,26 @@
     </section>
 
     <!-- KEY MVP FEATURES -->
-    <section id="features" class="py-20 bg-slate-50">
+    <section id="features" class="py-16 sm:py-20 bg-slate-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
           <h2
-            class="font-heading font-bold text-3xl sm:text-4xl text-slate-900 mb-4"
+            class="font-heading font-bold text-2xl sm:text-4xl text-slate-900 mb-3 sm:mb-4"
           >
             Tính năng cốt lõi MVP
           </h2>
-          <p class="text-slate-600 text-lg">
+          <p class="text-slate-600 text-base sm:text-lg">
             Được thiết kế tinh gọn để giải quyết triệt để nhu cầu cốt lõi của
             người dùng.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           <div
-            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200"
+            class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200"
           >
             <div
-              class="w-12 h-12 rounded-xl bg-teal-500 text-white flex items-center justify-center mb-6 shadow-md shadow-teal-500/20"
+              class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-teal-500 text-white flex items-center justify-center mb-5 sm:mb-6 shadow-md shadow-teal-500/20"
             >
               <svg
                 class="w-6 h-6"
@@ -232,8 +282,8 @@
                 />
               </svg>
             </div>
-            <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">
-              Quét phòng On-Device AI
+            <h3 class="font-heading font-bold text-lg sm:text-xl text-slate-900 mb-2.5 sm:mb-3">
+              Quét phòng dùng Gemini AI
             </h3>
             <p class="text-slate-600 text-sm leading-relaxed">
               Sử dụng mô hình YOLOv8-nano (TFLite ~8MB) chạy trực tiếp trên
@@ -242,10 +292,10 @@
             </p>
           </div>
           <div
-            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200"
+            class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200"
           >
             <div
-              class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center mb-6 shadow-md shadow-emerald-600/20"
+              class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center mb-5 sm:mb-6 shadow-md shadow-emerald-600/20"
             >
               <svg
                 class="w-6 h-6"
@@ -261,8 +311,8 @@
                 />
               </svg>
             </div>
-            <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">
-              Đánh giá & Gợi ý Style
+            <h3 class="font-heading font-bold text-lg sm:text-xl text-slate-900 mb-2.5 sm:mb-3">
+              Đánh giá &amp; Gợi ý Style
             </h3>
             <p class="text-slate-600 text-sm leading-relaxed">
               Chấm điểm mức độ tối ưu không gian, phân tích điểm yếu và đề xuất
@@ -271,10 +321,10 @@
             </p>
           </div>
           <div
-            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200"
+            class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200"
           >
             <div
-              class="w-12 h-12 rounded-xl bg-teal-600 text-white flex items-center justify-center mb-6 shadow-md shadow-teal-600/20"
+              class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-teal-600 text-white flex items-center justify-center mb-5 sm:mb-6 shadow-md shadow-teal-600/20"
             >
               <svg
                 class="w-6 h-6"
@@ -290,7 +340,7 @@
                 />
               </svg>
             </div>
-            <h3 class="font-heading font-bold text-xl text-slate-900 mb-3">
+            <h3 class="font-heading font-bold text-lg sm:text-xl text-slate-900 mb-2.5 sm:mb-3">
               Danh sách mua sắm thông minh
             </h3>
             <p class="text-slate-600 text-sm leading-relaxed">
@@ -303,32 +353,36 @@
     </section>
 
     <!-- UI SHOWCASE -->
-    <section id="showcase" class="py-20 bg-white border-t border-slate-200">
+    <section id="showcase" class="py-16 sm:py-20 bg-white border-t border-slate-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
           <h2
-            class="font-heading font-bold text-3xl sm:text-4xl text-slate-900 mb-4"
+            class="font-heading font-bold text-2xl sm:text-4xl text-slate-900 mb-3 sm:mb-4"
           >
             Giao diện Thiết kế UI/UX
           </h2>
-          <p class="text-slate-600 text-lg">
+          <p class="text-slate-600 text-base sm:text-lg">
             Hệ thống màn hình ứng dụng được thiết kế tối giản, trực quan và đồng
             bộ tuyệt đối.
           </p>
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
           <!-- Màn hình 1 -->
           <div
             class="bg-slate-100 rounded-2xl p-4 border border-slate-200 flex flex-col items-center text-center"
           >
             <div
-              class="w-full aspect-[9/16] bg-slate-200 rounded-xl mb-4 flex items-center justify-center text-slate-400 text-xs font-semibold"
+              class="w-full aspect-[9/16] bg-slate-200 rounded-xl mb-3 sm:mb-4 overflow-hidden"
             >
-              <img src="./img/Screenshot 2026-11-23 153147.png" alt="" />
+              <img
+                src="./img/Screenshot 2026-11-23 153147.png"
+                alt="Màn hình trang chủ và bắt đầu quét phòng NestDecor"
+                class="w-full h-full object-cover"
+              />
             </div>
             <span class="font-heading font-semibold text-sm text-slate-800"
-              >Trang chủ & Quét phòng</span
+              >Trang chủ &amp; Quét phòng</span
             >
           </div>
           <!-- Màn hình 2 -->
@@ -336,9 +390,13 @@
             class="bg-slate-100 rounded-2xl p-4 border border-slate-200 flex flex-col items-center text-center"
           >
             <div
-              class="w-full aspect-[9/16] bg-slate-200 rounded-xl mb-4 flex items-center justify-center text-slate-400 text-xs font-semibold"
+              class="w-full aspect-[9/16] bg-slate-200 rounded-xl mb-3 sm:mb-4 overflow-hidden"
             >
-              <img src="./img/Screenshot 2026-11-23 153157.png" alt="" />
+              <img
+                src="./img/Screenshot 2026-11-23 153157.png"
+                alt="Màn hình camera quét phòng bằng AI"
+                class="w-full h-full object-cover"
+              />
             </div>
             <span class="font-heading font-semibold text-sm text-slate-800"
               >Camera Quét AI</span
@@ -349,9 +407,13 @@
             class="bg-slate-100 rounded-2xl p-4 border border-slate-200 flex flex-col items-center text-center"
           >
             <div
-              class="w-full aspect-[9/16] bg-slate-200 rounded-xl mb-4 flex items-center justify-center text-slate-400 text-xs font-semibold"
+              class="w-full aspect-[9/16] bg-slate-200 rounded-xl mb-3 sm:mb-4 overflow-hidden"
             >
-              <img src="./img/Screenshot 2026-11-23 160123.png" alt="" />
+              <img
+                src="./img/Screenshot 2026-11-23 160123.png"
+                alt="Màn hình báo cáo phân tích không gian phòng"
+                class="w-full h-full object-cover"
+              />
             </div>
             <span class="font-heading font-semibold text-sm text-slate-800"
               >Báo cáo không gian</span
@@ -362,12 +424,16 @@
             class="bg-slate-100 rounded-2xl p-4 border border-slate-200 flex flex-col items-center text-center"
           >
             <div
-              class="w-full aspect-[9/16] bg-slate-200 rounded-xl mb-4 flex items-center justify-center text-slate-400 text-xs font-semibold"
+              class="w-full aspect-[9/16] bg-slate-200 rounded-xl mb-3 sm:mb-4 overflow-hidden"
             >
-              <img src="./img/Screenshot 2026-11-23 160134.png" alt="" />
+              <img
+                src="./img/Screenshot 2026-11-23 160134.png"
+                alt="Màn hình gợi ý phong cách và danh sách mua sắm decor"
+                class="w-full h-full object-cover"
+              />
             </div>
             <span class="font-heading font-semibold text-sm text-slate-800"
-              >Gợi ý & Mua sắm</span
+              >Gợi ý &amp; Mua sắm</span
             >
           </div>
         </div>
@@ -375,53 +441,22 @@
     </section>
 
     <!-- LINKS & SUBMISSION SECTION -->
-    <section id="links" class="py-20 bg-slate-900 text-white">
+    <section id="links" class="py-16 sm:py-20 bg-slate-900 text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="font-heading font-bold text-3xl sm:text-4xl mb-4">
+        <h2 class="font-heading font-bold text-2xl sm:text-4xl mb-3 sm:mb-4">
           Tài liệu tham khảo
         </h2>
-        <p class="text-slate-400 text-lg max-w-2xl mx-auto mb-12">
+        <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto mb-10 sm:mb-12">
           Truy cập nhanh các liên kết công khai của dự án
         </p>
 
-        <div class="flex flex-wrap justify-center gap-6">
+        <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-6">
           <a
             href="https://www.behance.net/gallery/258665367/NestDecor-On-Device-AI-Interior-Design-App/modules/1513282047"
             target="_blank"
-            class="px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 font-semibold text-white shadow-lg shadow-emerald-600/30 transition-all flex items-center space-x-2"
+            rel="noopener noreferrer"
+            class="w-full sm:w-auto px-6 sm:px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 font-semibold text-white shadow-lg shadow-emerald-600/30 transition-all flex items-center justify-center space-x-2"
           >
             <span>Xem Behance Case Study</span>
           </a>
           <a
-            href="https://www.figma.com/design/QbiFEOW5ieXY9SAoHRHzXv/NestDecor?m=auto&amp;t=uTJp0UEeaLUILp7N-6"
-            target="_blank"
-            class="px-8 py-4 rounded-xl bg-teal-600 hover:bg-teal-700 font-semibold text-white shadow-lg shadow-teal-600/30 transition-all flex items-center space-x-2"
-          >
-            <span>Mở Figma Prototype File</span>
-          </a>
-          <a
-            href="https://github.com/LO1-DomDom"
-            target="_blank"
-            class="px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 font-semibold text-white transition-all flex items-center space-x-2"
-          >
-            <span>GitHub Organization</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer
-      class="py-8 bg-slate-950 text-slate-400 text-sm border-t border-slate-900"
-    >
-      <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4"
-      >
-        <p>&copy; 2026 L01_DomDom Team</p>
-        <p class="text-xs">
-          Designed with Tailwind CSS & On-Device AI Architecture.
-        </p>
-      </div>
-    </footer>
-  </body>
-</html>
